@@ -20,6 +20,8 @@ h1, h2, h3, h4, p {
 
 h1 {
     font-size: 2.5em;
+	background: #08083f;
+    color: #ffff00;
 }
 
 h2 {
