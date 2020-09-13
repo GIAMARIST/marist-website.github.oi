@@ -75,6 +75,17 @@ section code {
     color: inherit;
 }
 
+section p {
+    display: block;
+    width: 98%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 0 25px 0;
+
+    line-height: 1.4em;
+    color: inherit;
+}
+
 section h3 {
     margin: 45px auto 0 auto;
 }
