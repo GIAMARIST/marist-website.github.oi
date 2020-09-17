@@ -154,6 +154,7 @@ colour: #b77eb6;
 
 div.MouseScroll {
     position: absolute;
+	color: #fcf48a;
     left: 50%;
     bottom: 25px;
     width: 100px;
