@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-	background: #021517;
-    color: #a0bbbd;
+	background: #08083f;
+    color: #ffff00;
 
 	font-family: 'Montserrat', Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
 	font-weight: 400;
@@ -20,8 +20,6 @@ h1, h2, h3, h4, p {
 
 h1 {
     font-size: 2.5em;
-	background: #08083f;
-    color: #ffff00;
 }
 
 h2 {
