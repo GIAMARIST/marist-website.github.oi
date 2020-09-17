@@ -1,12 +1,13 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-image: https://duckduckgo.com/?q=photo&t=ffab&atb=v231-1&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEWYnStXlCVE%2Fmaxresdefault.jpg;
-}
+	}
 
 body {
 	background: #08083f;
     color: #ffff00;
+	background-image: https://duckduckgo.com/?q=photo&t=ffab&atb=v231-1&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEWYnStXlCVE%2Fmaxresdefault.jpg;
+
 
 	font-family: 'Montserrat', Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
 	font-weight: 400;
