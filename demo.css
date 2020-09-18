@@ -49,6 +49,7 @@ a {
     color: #689396;
 }
 
+
 section {
     display: table;
     position: relative;
@@ -344,7 +345,7 @@ body
 	
 	#menu li
 	{
-	  padding: 27.55px 0;
+	  padding: 35px 0;
 	  font-size: 22px;
 	}
 
