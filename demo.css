@@ -137,7 +137,7 @@ section.Intro h2 {
 }
 
 section.About {
-    color: #ededed;
+    color: #132580;
     background: whitesmoke;
 }
 
@@ -325,7 +325,7 @@ body
 	  margin: -100px 0 0 -50px;
 	  padding: 50px;
 	  padding-top: 125px;
-	  
+	  color : #132580
 	  background: whitesmoke;
 	  list-style-type: none;
 	  -webkit-font-smoothing: antialiased;
@@ -339,7 +339,7 @@ body
 
 	#menu a
 	{
-		color: #132580;
+		background-color: whitesmoke;
 	}
 	
 	#menu li
