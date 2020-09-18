@@ -161,7 +161,6 @@ div.Wrapper {
 
 div.MouseScroll {
     position: absolute;
-	color: #fcf48a;
     left: 50%;
     bottom: 25px;
     width: 100px;
@@ -241,14 +240,14 @@ body
 	#menuToggle a
 	{
 	  text-decoration: none;
-	  color: #232323;
+	  color: #132580;
 	  
 	  transition: color 0.3s ease;
 	}
 	
 	#menuToggle a:hover
 	{
-	  color: tomato;
+	  color: whitesmoke;
 	}
 	
 	
@@ -327,7 +326,7 @@ body
 	  padding: 50px;
 	  padding-top: 125px;
 	  
-	  background: #132580;
+	  background: whitesmoke;
 	  list-style-type: none;
 	  -webkit-font-smoothing: antialiased;
 	  /* to stop flickering of text in safari */
@@ -340,7 +339,7 @@ body
 
 	#menu a
 	{
-		color: whitesmoke;
+		color: #132580;
 	}
 	
 	#menu li
