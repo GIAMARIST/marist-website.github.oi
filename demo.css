@@ -113,7 +113,7 @@ section p span {
 
     font-family: monospace;
     font-size: 14px;
-    color: #fff;
+    color: #132580;
 }
 
 section code {
@@ -129,7 +129,7 @@ section code span {
 }
 
 section.Intro {
-    color: #132580;
+    color: whitesmoke;
 }
 
 section.Intro h2 {
