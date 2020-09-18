@@ -33,7 +33,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5em;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 h4 {
@@ -127,7 +128,7 @@ section code span {
 }
 
 section.Intro {
-    color: #a0bbbd;
+    color: whitesmoke;
 }
 
 section.Intro h2 {
@@ -135,8 +136,8 @@ section.Intro h2 {
 }
 
 section.About {
-    color: #497275;
-    background: #a0bbbd;
+    color: #ededed;
+    background: #132580;
 }
 
 section.Examples {
@@ -153,7 +154,6 @@ div.Wrapper {
     width: 96%;
     max-width: 680px;
     margin: 0 auto;
-colour: #b77eb6;
 
     z-index: 1;
 }
@@ -276,7 +276,7 @@ body
 	  margin-bottom: 5px;
 	  position: relative;
 	  
-	  background: #cdcdcd;
+	  background: whitesmoke;
 	  border-radius: 3px;
 	  
 	  z-index: 1;
@@ -302,7 +302,7 @@ body
 	{
 	  opacity: 1;
 	  transform: rotate(45deg) translate(-2px, -1px);
-	  background: #232323;
+	  background: whitesmoke;
 	}
 
 	#menuToggle input:checked ~ span:nth-last-child(3)
@@ -326,7 +326,7 @@ body
 	  padding: 50px;
 	  padding-top: 125px;
 	  
-	  background: #ededed;
+	  background: #132580;
 	  list-style-type: none;
 	  -webkit-font-smoothing: antialiased;
 	  /* to stop flickering of text in safari */
@@ -336,10 +336,15 @@ body
 	  
 	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	}
+
+	#menu a
+	{
+		color: whitesmoke;
+	}
 	
 	#menu li
 	{
-	  padding: 10px 0;
+	  padding: 27.55px 0;
 	  font-size: 22px;
 	}
 
