@@ -129,7 +129,7 @@ section code span {
 }
 
 section.Intro {
-    color: whitesmoke;
+    color: #132580;
 }
 
 section.Intro h2 {
@@ -138,7 +138,7 @@ section.Intro h2 {
 
 section.About {
     color: #ededed;
-    background: #132580;
+    background: whitesmoke;
 }
 
 section.Examples {
