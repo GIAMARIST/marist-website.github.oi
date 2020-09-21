@@ -159,14 +159,15 @@ div.Wrapper {
     z-index: 1;
 }
 
+
 div.MouseScroll {
     position: absolute;
     left: 50%;
     bottom: 25px;
     width: 100px;
     height: 100px;
-    margin: 0 0 0 -50px;
-
+	margin: 0 0 0 -50px;
+	
     z-index: 2;
 }
 
