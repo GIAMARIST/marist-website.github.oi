@@ -46,7 +46,7 @@ h4 {
 a {
     text-decoration: none;
     font-weight: 500;
-    color: #689396;
+    color: #132580;
 }
 
 
@@ -300,7 +300,7 @@ body
 	{
 	  opacity: 1;
 	  transform: rotate(45deg) translate(-2px, -1px);
-	  background: white; 
+	  background: #132580; 
 	}
 
 	#menuToggle input:checked ~ span:nth-last-child(3)
@@ -323,7 +323,7 @@ body
 	  margin: -100px 0 0 -50px;
 	  padding: 50px;
 	  padding-top: 125px;
-	  color : #132580
+	  color : #132580;
 	  background: whitesmoke;
 	  list-style-type: none;
 	  -webkit-font-smoothing: antialiased;
