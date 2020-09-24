@@ -6,57 +6,12 @@
 		<title>Marist College</title>
 	 <link rel="stylesheet" href="demo.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap" rel="stylesheet">
-		</head>
+</head>
 
 <body>
-	
-	<body>
 
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="img_nature_wide.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="img_snow_wide.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="img_mountains_wide.jpg" style="width:100%">
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-		<script>
-			var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 7000); // Change image every 7 seconds
-}
-		</script>
-		
-    <nav role="navigation">
+    <div style="background-image: url(https://images.unsplash.com/photo-1527138235495-6f1b15f33051?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);"
+<nav role="navigation">
 	<div id="menuToggle">
 
 	  <input type="checkbox" />
@@ -193,4 +148,3 @@ function showSlides() {
     </section>
 </body>
 </html>
-
