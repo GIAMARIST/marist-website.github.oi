@@ -14,8 +14,6 @@ body {
 	background: #08083f;
     color: #ffff00;
 	background-image: https://duckduckgo.com/?q=photo&t=ffab&atb=v231-1&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEWYnStXlCVE%2Fmaxresdefault.jpg;
-
-
 	font-family: 'Montserrat', Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
 	font-weight: 400;
     font-size: 21px;
@@ -68,7 +66,7 @@ section {
 
 section div.Wrapper {
     display: table-cell;
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 canvas {
@@ -359,3 +357,62 @@ body
 	  transform: none;
 	}
 
+	.slider {
+		max-width: 100%;
+		height: 100%;
+		margin: 0px auto;
+		position: fixed;
+	  }
+	  .slide1,.slide2,.slide3,.slide4,.slide5 {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+	  }
+	  .slide1 {
+			background-size: cover;
+		  animation:fade 16s infinite;
+	  -webkit-animation:fade 16s infinite;
+	  } 
+	  .slide2 {
+			background-size: cover;
+		  animation:fade2 16s infinite;
+	  -webkit-animation:fade2 16s infinite;
+	  }
+	  .slide3 {
+			background-size: cover;
+		  animation:fade3 16s infinite;
+	  -webkit-animation:fade3 16s infinite;
+	  }
+	  .slide4 {
+		background-size: cover;
+	  animation:fade4 16s infinite;
+  -webkit-animation:fade4 16s infinite;
+  }
+	  @keyframes fade
+	  {
+		0%   {opacity:1}
+		33.333% { opacity: 0}
+		66.666% { opacity: 0}
+		100% { opacity: 1}
+	  }
+	  @keyframes fade2
+	  {
+		0%   {opacity:0}
+		33.333% { opacity: 1}
+		66.666% { opacity: 0 }
+		100% { opacity: 0}
+	  }
+	  @keyframes fade3
+	  {
+		0%   {opacity:0}
+		33.333% { opacity: 0}
+		66.666% { opacity: 1}
+		100% { opacity: 0}
+	  }
+	  @keyframes fade4
+	  {
+		0%   {opacity:0}
+		33.333% { opacity: 0}
+		66.666% { opacity: 1}
+		100% { opacity: 0}
+	  }
