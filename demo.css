@@ -4,22 +4,6 @@ html, body {
 	margin: 0;
 	padding: 0;
 	}
-div {
- background-image: https://duckduckgo.com/?q=photo&t=ffab&atb=v231-1&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEWYnStXlCVE%2Fmaxresdefault.jpg;
-}
-
-
-
-body {
-	background: #08083f;
-    color: #ffff00;
-	background-image: https://duckduckgo.com/?q=photo&t=ffab&atb=v231-1&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEWYnStXlCVE%2Fmaxresdefault.jpg;
-	font-family: 'Montserrat', Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
-	font-weight: 400;
-    font-size: 21px;
-	-webkit-font-smoothing: antialiased;
-}
-
 
 h1, h2, h3, h4, p {
     margin: 0;
@@ -28,7 +12,7 @@ h1, h2, h3, h4, p {
 
 h1 {
     font-size: 2.5em;
-	font-family: 'Amita';font-size: 22px;
+	font-family: 'Amita';font-size: 100px;
 }
 
 h2 {
@@ -52,7 +36,6 @@ a {
     font-weight: 500;
     color: #132580;
 }
-
 
 
 section {
@@ -362,7 +345,7 @@ body
 		margin: 0px auto;
 		position: fixed;
 	  }
-	  .slide1,.slide2,.slide3,.slide4,.slide5 {
+	  .slide1,.slide2,.slide3,.slide4 {
 		position: fixed;
 		width: 100%;
 		height: 100%;
