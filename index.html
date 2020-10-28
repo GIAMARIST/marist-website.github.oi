@@ -35,12 +35,16 @@
 
 	  <ul id="menu">
   <a href="#"><li>About Marist College</li></a>
-  <a href="#"><li>Events</li></a>
+  <a href="events"><li>Events</li></a>
   <a href="#"><li>Enrolment</li></a>
   <a href="#"><li>Our Community</li></a>
   <a href="#"><li>Our News</li></a>
   <a href="#"><li>Contact</li></a>
 	  </ul>
+		<script>
+		    app.get('/events', (req, res) =>
+       {res.render('event.html')}
+		</script>
 	</div>
 </body>
 
