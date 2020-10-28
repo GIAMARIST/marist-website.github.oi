@@ -84,7 +84,6 @@ section p,
 section code {
     display: block;
     width: 100%;
-    max-width: 680px;
     margin: 0 auto;
     padding: 0 0 25px 0;
 
@@ -95,7 +94,6 @@ section code {
 section p {
     display: block;
     width: 100%;
-    max-width: 680px;
     margin: 0 auto;
     padding: 0 0 25px 0;
 
